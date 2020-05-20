@@ -180,14 +180,7 @@ import { useFormatMessage } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatMessage(
-  {
-    id: 'app.greeting',
-    defaultMessage: 'Hello, {name}!',
-    description: 'Greeting to welcome the user to the app',
-  },
-  { name: 'Eric' },
-); // "Hello, Eric!"
+const t = useFormatMessage();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.
@@ -269,11 +262,7 @@ import { useFormatDate } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatDate(Date.now(), {
-  year: 'numeric',
-  month: 'numeric',
-  day: 'numeric',
-}); // "3/4/2016"
+const t = useFormatDate();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.
@@ -360,7 +349,7 @@ import { useFormatTime } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatTime(Date.now()); // "4:03 PM"
+const t = useFormatTime();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.
@@ -440,7 +429,7 @@ import { useFormatNumber } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatNumber(0.5, { style: 'percent' }); // "50%"
+const t = useFormatNumber();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.
@@ -530,7 +519,7 @@ import { useFormatRelativeTime } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatRelativeTime(1, 'hour'); // "in 1 hour"
+const t = useFormatRelativeTime();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.
@@ -612,7 +601,7 @@ import { useFormatList } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatList(['5 hours', '3 minutes'], { type: 'unit' }); // 5 hours, 3 minutes
+const t = useFormatList();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.
@@ -693,7 +682,7 @@ import { useFormatPlural } from 'react-intl-hooks';
 Then use it like this:
 
 ```jsx
-const t = useFormatPlural(2, { style: 'ordinal' }); // "two"
+const t = useFormatPlural();
 ```
 
 The hook returns a translation function that can be used inside the JSX code of your components.

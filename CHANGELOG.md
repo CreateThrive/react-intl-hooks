@@ -1,3 +1,25 @@
+# 1.0.2 (May 22, 2020)
+
+v1.0.2 is a maintenance release that updates dependencies.
+
+#### :hammer: Underlying tools
+- #1 update `react-intl` to  4.5.8. ([@MateoKruk ](https://github.com/MateoKruk))
+- #2 update `lint-staged` to 10.2.6. ([@MateoKruk ](https://github.com/MateoKruk))
+
+### Migrating from 1.0.1 to 1.0.2
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.2
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.2
+```
+
 # 1.0.1 (May 20, 2020)
 
 v1.0.1 is a maintenance release that includes documentation updates.

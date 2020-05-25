@@ -1,3 +1,28 @@
+# 1.0.3 (May 25, 2020)
+
+v1.0.3 is a maintenance release that updates dependencies.
+
+#### :hammer: Underlying tools
+- #3 update `@types/node` to 14.0.5. ([@MateoKruk ](https://github.com/MateoKruk))
+- #4  update `typescript` to 3.9.3. ([@MateoKruk ](https://github.com/MateoKruk))
+- #5 update `rollup` to 2.10.9. ([@MateoKruk ](https://github.com/MateoKruk))
+- #6 update `@rollup/plugin-commonjs` to 12.0.0. ([@MateoKruk ](https://github.com/MateoKruk))
+- #6 update `react-intl` to 4.5.12. ([@MateoKruk ](https://github.com/MateoKruk))
+
+### Migrating from 1.0.2 to 1.0.3
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.3
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.3
+```
+
 # 1.0.2 (May 22, 2020)
 
 v1.0.2 is a maintenance release that updates dependencies.

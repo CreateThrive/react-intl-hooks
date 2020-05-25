@@ -7,7 +7,7 @@ v1.0.3 is a maintenance release that updates dependencies.
 - #4  update `typescript` to 3.9.3. ([@MateoKruk ](https://github.com/MateoKruk))
 - #5 update `rollup` to 2.10.9. ([@MateoKruk ](https://github.com/MateoKruk))
 - #6 update `@rollup/plugin-commonjs` to 12.0.0. ([@MateoKruk ](https://github.com/MateoKruk))
-- #6 update `react-intl` to 4.5.12. ([@MateoKruk ](https://github.com/MateoKruk))
+- #7 update `react-intl` to 4.5.12. ([@MateoKruk ](https://github.com/MateoKruk))
 
 ### Migrating from 1.0.2 to 1.0.3
 

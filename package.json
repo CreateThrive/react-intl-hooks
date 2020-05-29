@@ -1,6 +1,6 @@
 {
   "name": "react-intl-hooks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React hooks for internationalization without the hassle",
   "license": "MIT",
   "main": "dist/index.js",

@@ -52,11 +52,10 @@
     "test:ci": "cross-env CI=true yarn test",
     "version": "yarn lint:ci && git add -A src",
     "postversion": "yarn publish && git push && git push --tags",
-    "preinstall": "rm -rf node_modules",
+    "clean": "rm -rf node_modules && rm -rf dist",
     "install:ci": "yarn install --frozen-lockfile",
-    "prebuild": "rm -rf dist",
     "build": "rollup -c ./rollup/rollup.config.js",
-    "prepublishOnly": "yarn preinstall && yarn install:ci && yarn test:ci && yarn lint:ci && yarn prebuild && yarn build"
+    "prepublishOnly": "yarn clean && yarn install:ci && yarn test:ci && yarn lint:ci && yarn prebuild && yarn build"
   },
   "dependencies": {
     "react-intl": "^4.5.3"

@@ -1,3 +1,29 @@
+# 1.0.4 (May 29, 2020)
+
+v1.0.4 is a maintenance release includes updates to dependencies and a bugfix related to the `preinstall` script.
+
+#### :bug: Bug Fix
+- #11 Removed preinstall script from package.json. ([@MateoKruk ](https://github.com/MateoKruk))
+
+#### :hammer: Underlying tools
+- #12 update `@babel/core` to 7.10.1. ([@MateoKruk ](https://github.com/MateoKruk))
+- #9  update `@babel/preset-env` to 7.10.0. ([@MateoKruk ](https://github.com/MateoKruk))
+- #8 update `@babel/preset-react` to 7.10.0. ([@MateoKruk ](https://github.com/MateoKruk))
+
+### Migrating from 1.0.3 to 1.0.4
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.4
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.4
+```
+
 # 1.0.3 (May 25, 2020)
 
 v1.0.3 is a maintenance release that updates dependencies.

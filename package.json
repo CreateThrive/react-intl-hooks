@@ -55,7 +55,7 @@
     "clean": "rm -rf node_modules && rm -rf dist",
     "install:ci": "yarn install --frozen-lockfile",
     "build": "rollup -c ./rollup/rollup.config.js",
-    "prepublishOnly": "yarn clean && yarn install:ci && yarn test:ci && yarn lint:ci && yarn prebuild && yarn build"
+    "prepublishOnly": "yarn clean && yarn install:ci && yarn test:ci && yarn lint:ci && yarn build"
   },
   "dependencies": {
     "react-intl": "^4.5.3"

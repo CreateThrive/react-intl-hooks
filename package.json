@@ -58,7 +58,7 @@
     "prepublishOnly": "yarn clean && yarn install:ci && yarn test:ci && yarn lint:ci && yarn build"
   },
   "dependencies": {
-    "react-intl": "^4.5.3"
+    "react-intl": "^4.6.6"
   },
   "peerDependencies": {
     "react": "^16.9.0"
@@ -68,25 +68,25 @@
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
     "@babel/preset-typescript": "^7.9.0",
-    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-commonjs": "^13.0.0",
     "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^25.2.2",
     "@types/node": "^14.0.1",
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
     "babel-jest": "^26.0.1",
     "codecov": "^3.6.5",
     "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
+    "eslint": "^7.1.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^2.5.1",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
-    "jest": "^25.5.4",
+    "jest": "^26.0.1",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
@@ -94,7 +94,7 @@
     "react-test-renderer": "^16.13.1",
     "rollup": "^2.10.0",
     "rollup-plugin-typescript2": "^0.27.1",
-    "ts-jest": "^25.5.1",
+    "ts-jest": "^26.1.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.2"
   },

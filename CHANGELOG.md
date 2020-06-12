@@ -1,6 +1,38 @@
+# 1.0.6 (June 12, 2020)
+
+v1.0.6 is a maintenance release that includes updates to dependencies and the migration of Dependabot directly to the GitHub repo.
+
+#### :hammer: Underlying tools
+
+- #26 update `react-intl` to 4.6.9. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `@types/jest` to 26.0.0. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `@types/node` to 14.0.13. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `@typescript-eslint/eslint-plugin` to 3.2.0. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `@typescript-eslint/parser` to 3.2.0. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `eslint` to 7.0.2. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `eslint-plugin-import` to 2.21.2. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `lint-staged` to 10.2.10. ([@MateoKruk ](https://github.com/MateoKruk))
+- #26 update `rollup` to 2.15.0. ([@MateoKruk ](https://github.com/MateoKruk))
+- #27 migrated Dependabot to GitHub using a config file. ([@MateoKruk ](https://github.com/MateoKruk))
+- #27 (Github actions) updated `actions/setup-node` to v2.0.0. ([@MateoKruk ](https://github.com/MateoKruk))
+
+### Migrating from 1.0.5 to 1.0.6
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.6
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.6
+```
+
 # 1.0.5 (June 5, 2020)
 
-v1.0.5 is a maintenance release includes updates to dependencies.
+v1.0.5 is a maintenance release that includes updates to dependencies.
 
 #### :hammer: Underlying tools
 

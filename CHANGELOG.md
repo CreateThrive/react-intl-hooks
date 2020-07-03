@@ -1,3 +1,41 @@
+# 1.0.7 (July 3, 2020)
+
+v1.0.7 is a maintenance release that includes updates to dependencies.
+
+#### :hammer: Underlying tools
+
+- #31 update `react-intl` to 5.0.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@babel/core` to 7.10.4 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@babel/preset-env` to 7.10.4 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@babel/preset-react` to 7.10.4 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@babel/preset-typescript` to 7.10.4 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@types/jest` to 26.0.3 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@types/node` to 14.0.14 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@typescript-eslint/eslint-plugin` to 3.5.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `@typescript-eslint/parser` to 3.5.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `babel-jest` to 26.1.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `eslint` to 7.3.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `eslint-plugin-import` to 2.22.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `eslint-plugin-jsx-a11y` to 6.3.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `jest` to 26.1.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `ts-jest` to 26.1.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `rollup` to 2.18.2 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #31 update `typescript` to 3.9.6 ([@MateoKruk ](https://github.com/MateoKruk)).
+
+### Migrating from 1.0.6 to 1.0.7
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.7
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.7
+```
+
 # 1.0.6 (June 12, 2020)
 
 v1.0.6 is a maintenance release that includes updates to dependencies and the migration of Dependabot directly to the GitHub repo.

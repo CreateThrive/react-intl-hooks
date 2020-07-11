@@ -1,4 +1,32 @@
-# 1.0.7 (July 3, 2020)
+# 1.0.8 (July 10, 2020)
+
+v1.0.8 is a maintenance release that includes updates to dependencies for both the main project and the github actions.
+
+#### :hammer: Underlying tools
+
+- #44 update `actions/setup-node` to 2.1.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `react-intl` to 5.0.2 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@types/jest` to 26.0.4 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@types/node` to 14.0.22 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@typescript-eslint/eslint-plugin` to 3.6.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@typescript-eslint/parser` to 3.6.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `eslint` to 7.4.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `eslint-plugin-react-hooks` to 4.0.7 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `rollup` to 2.21.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+
+### Migrating from 1.0.7 to 1.0.8
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.8
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.8
+```
 
 v1.0.7 is a maintenance release that includes updates to dependencies.
 

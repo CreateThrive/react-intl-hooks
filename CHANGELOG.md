@@ -1,3 +1,33 @@
+# 1.0.9 (July 17, 2020)
+
+v1.0.9 is a maintenance release that includes updates to dependencies.
+
+#### :hammer: Underlying tools
+
+- #44 update `react-intl` to 5.3.2 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@babel/core` to 7.10.5 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@rollup/plugin-commonjs` to 14.0.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@types/node` to 14.0.23 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@typescript-eslint/eslint-plugin` to 3.6.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `@typescript-eslint/parser` to 3.6.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `eslint-plugin-react-hooks` to 4.0.8 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `ts-jest` to 26.1.3 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #44 update `typescript` to 3.9.7 ([@MateoKruk ](https://github.com/MateoKruk)).
+
+### Migrating from 1.0.8 to 1.0.9
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.9
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.9
+```
+
 # 1.0.8 (July 10, 2020)
 
 v1.0.8 is a maintenance release that includes updates to dependencies for both the main project and the github actions.

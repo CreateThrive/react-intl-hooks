@@ -12,18 +12,18 @@ v1.0.10 is a maintenance release that includes updates to dependencies.
 - #48 update `rollup` to 2.23.0 ([@MateoKruk ](https://github.com/MateoKruk)).
 - #49 update `actions/setup-node` to 2.1.1 ([@MateoKruk ](https://github.com/MateoKruk)).
 
-### Migrating from 1.0.8 to 1.0.9
+### Migrating from 1.0.9 to 1.0.10
 
 Inside your project, run:
 
 ```
-npm install --save --save-exact react-intl-hooks@1.0.9
+npm install --save --save-exact react-intl-hooks@1.0.10
 ```
 
 or
 
 ```
-yarn add --exact react-intl-hooks@1.0.9
+yarn add --exact react-intl-hooks@1.0.10
 ```
 
 # 1.0.9 (July 17, 2020)

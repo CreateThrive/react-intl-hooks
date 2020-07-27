@@ -1,3 +1,31 @@
+# 1.0.10 (July 27, 2020)
+
+v1.0.10 is a maintenance release that includes updates to dependencies.
+
+#### :hammer: Underlying tools
+
+- #48 update `react-intl` to 5.4.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #48 update `@testing-library/react-hooks` to 3.4.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #48 update `@types/jest` to 26.0.7 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #48 update `@types/node` to 14.0.26 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #48 update `codecov` to 3.7.2 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #48 update `rollup` to 2.23.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #49 update `actions/setup-node` to 2.1.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+
+### Migrating from 1.0.8 to 1.0.9
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.9
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.9
+```
+
 # 1.0.9 (July 17, 2020)
 
 v1.0.9 is a maintenance release that includes updates to dependencies.

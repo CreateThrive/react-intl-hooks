@@ -1,3 +1,34 @@
+# 1.0.11 (July 27, 2020)
+
+v1.0.11 is a maintenance release that includes updates to dependencies.
+
+#### :hammer: Underlying tools
+
+- #60 update `react-intl` to 5.4.5 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `@babel/core` to 7.11.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `@babel/preset-env` to 7.11.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `@types/jest` to 26.0.8 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `@types/node` to 3.7.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `@typescript-eslint/parser` to 3.7.1 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `eslint` to 7.6.0 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `eslint-plugin-react` to 7.20.5 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `jest` to 26.2.2 ([@MateoKruk ](https://github.com/MateoKruk)).
+- #60 update `ts-jest` to 26.1.4 ([@MateoKruk ](https://github.com/MateoKruk)).
+
+### Migrating from 1.0.10 to 1.0.11
+
+Inside your project, run:
+
+```
+npm install --save --save-exact react-intl-hooks@1.0.11
+```
+
+or
+
+```
+yarn add --exact react-intl-hooks@1.0.11
+```
+
 # 1.0.10 (July 27, 2020)
 
 v1.0.10 is a maintenance release that includes updates to dependencies.

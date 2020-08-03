@@ -1,4 +1,4 @@
-# 1.0.11 (July 27, 2020)
+# 1.0.11 (August 3, 2020)
 
 v1.0.11 is a maintenance release that includes updates to dependencies.
 

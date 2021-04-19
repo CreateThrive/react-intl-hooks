@@ -1,10 +1,9 @@
-import { useIntl, FormatNumberOptions } from 'react-intl';
+import { useIntl } from 'react-intl';
 
 const useFormatNumber = () => {
-  const intl = useIntl();
+  const { formatNumber } = useIntl();
 
-  return (value: number, options?: FormatNumberOptions) =>
-    intl.formatNumber(value, options);
+  return formatNumber;
 };
 
 export default useFormatNumber;

@@ -1,17 +1,9 @@
-import { useIntl, MessageDescriptor } from 'react-intl';
-
-type MessageFormatPrimitiveValue = string | number | boolean | null | undefined;
-
-type MessageFormatValues = Record<
-  string,
-  MessageFormatPrimitiveValue | React.ReactElement
->;
+import { useIntl } from 'react-intl';
 
 const useFormatMessage = () => {
-  const intl = useIntl();
+  const { formatMessage } = useIntl();
 
-  return (message: MessageDescriptor, values?: MessageFormatValues) =>
-    intl.formatMessage(message, values);
+  return formatMessage;
 };
 
 export default useFormatMessage;

@@ -1,12 +1,9 @@
-import { useIntl, FormatDateOptions } from 'react-intl';
-
-type TimeFormatPrimitiveValue = string | number | Date | undefined;
+import { useIntl } from 'react-intl';
 
 const useFormatTime = () => {
-  const intl = useIntl();
+  const { formatTime } = useIntl();
 
-  return (value: TimeFormatPrimitiveValue, options?: FormatDateOptions) =>
-    intl.formatTime(value, options);
+  return formatTime;
 };
 
 export default useFormatTime;

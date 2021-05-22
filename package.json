@@ -61,7 +61,7 @@
     "react-intl": "^5.4.5"
   },
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^16.9 || ^17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",

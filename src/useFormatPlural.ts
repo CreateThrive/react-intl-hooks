@@ -1,10 +1,9 @@
-import { useIntl, FormatPluralOptions } from 'react-intl';
+import { useIntl } from 'react-intl';
 
 const useFormatPlural = () => {
-  const intl = useIntl();
+  const { formatPlural } = useIntl();
 
-  return (value: number, options?: FormatPluralOptions) =>
-    intl.formatPlural(value, options);
+  return formatPlural;
 };
 
 export default useFormatPlural;
